@@ -1,0 +1,19 @@
+/* --- Restore the three large circular social logos shown in the reference --- */
+.social-links { display: flex; gap: 16px; margin-top: 28px; }
+.social-link {
+  width: 90px; height: 90px;
+  border: 1px solid var(--border-strong);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text);
+  transition: border-color 0.25s var(--ease), color 0.25s var(--ease), transform 0.25s var(--ease);
+}
+.social-link svg { width: 40px; height: 40px; }
+.social-link:hover { color: var(--accent); border-color: var(--accent); transform: translateY(-3px); }
+
+@media (max-width: 520px) {
+  .social-link { width: 68px; height: 68px; }
+  .social-link svg { width: 30px; height: 30px; }
+}
