@@ -38,3 +38,4 @@ All colors live as CSS variables at the top of `style.css` under `:root`. Change
 - Respects `prefers-reduced-motion` (disables the background effects and other animations).
 - Tabs, modals, mobile menu, scroll reveal, and form validation are all vanilla JS — no dependencies.
 - The custom cursor is desktop-only and disables itself on touch devices.
+
