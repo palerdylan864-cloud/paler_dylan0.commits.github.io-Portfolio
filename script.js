@@ -6,8 +6,8 @@ const projects = [
   {
     number: "01",
     title: "My First Project Using Arduino: Creating an Assistive Device",
-    description: "An Arduino-based assistive device prototype designed to use electronics and embedded programming to support users with everyday tasks. This project introduced me to building practical technology with hardware.",
-    image: "./assets/project-1.png",
+    description: "An Arduino-based assistive device prototype designed to use electronics and embedded programming to support users with everyday tasks. This project introduced me to building practical solutions through hands-on experimentation.",
+    image: "./project-1.png",
     technologies: ["Arduino", "C/C++", "Electronics", "Prototyping"],
     github: "#",
     demo: "#",
@@ -25,7 +25,7 @@ const projects = [
     number: "02",
     title: "MySQL Database Creation & Management",
     description: "A database project focused on creating and managing a relational database with MySQL. It organizes related information into structured tables and supports consistent record management.",
-    image: "./assets/project-2.png",
+    image: "./project-2.png",
     technologies: ["MySQL", "SQL", "Relational Database Design"],
     github: "#",
     demo: "#",
@@ -42,8 +42,8 @@ const projects = [
   {
     number: "03",
     title: "Interactive Resume Website",
-    description: "A fun, visually engaging online resume that presents my background, skills, and projects in an interactive format, highlighting my web development, database design, and creative problem-solving skills.",
-    image: "./assets/project-3.png",
+    description: "A fun, visually engaging online resume that presents my background, skills, and projects in an interactive format, highlighting my web development, database design, and creative approach.",
+    image: "./project-3.png",
     technologies: ["HTML", "CSS", "JavaScript", "MySQL"],
     github: "#",
     demo: "#",
@@ -428,9 +428,6 @@ function initContactForm() {
     submitBtn.disabled = true;
     successEl.classList.remove("show");
 
-    // Frontend-only success state.
-    // To actually send messages, connect a backend or a form service
-    // (e.g. Formspree, EmailJS, or a custom API endpoint) here.
     setTimeout(() => {
       submitBtn.classList.remove("loading");
       submitBtn.disabled = false;
